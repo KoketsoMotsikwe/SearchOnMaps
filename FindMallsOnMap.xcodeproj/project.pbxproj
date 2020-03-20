@@ -15,6 +15,7 @@
 		79627D0A242378BE00476117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79627D08242378BE00476117 /* LaunchScreen.storyboard */; };
 		79627D15242378BE00476117 /* FindMallsOnMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79627D14242378BE00476117 /* FindMallsOnMapTests.swift */; };
 		79627D20242378BE00476117 /* FindMallsOnMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79627D1F242378BE00476117 /* FindMallsOnMapUITests.swift */; };
+		79627D322424A6DC00476117 /* MallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79627D312424A6DC00476117 /* MallTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		79627D1B242378BE00476117 /* FindMallsOnMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMallsOnMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79627D1F242378BE00476117 /* FindMallsOnMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMallsOnMapUITests.swift; sourceTree = "<group>"; };
 		79627D21242378BE00476117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79627D312424A6DC00476117 /* MallTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				79627CFD242378BA00476117 /* AppDelegate.swift */,
 				79627CFF242378BA00476117 /* SceneDelegate.swift */,
 				79627D01242378BA00476117 /* ViewController.swift */,
+				79627D312424A6DC00476117 /* MallTableViewCell.swift */,
 				79627D03242378BA00476117 /* Main.storyboard */,
 				79627D06242378BE00476117 /* Assets.xcassets */,
 				79627D08242378BE00476117 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				79627D02242378BA00476117 /* ViewController.swift in Sources */,
 				79627CFE242378BA00476117 /* AppDelegate.swift in Sources */,
 				79627D00242378BA00476117 /* SceneDelegate.swift in Sources */,
+				79627D322424A6DC00476117 /* MallTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
