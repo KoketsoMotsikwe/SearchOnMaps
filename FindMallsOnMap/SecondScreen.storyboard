@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2wr-rk-T2v">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Second Screen View Controller-->
+        <scene sceneID="S5J-29-uMx">
+            <objects>
+                <viewController id="2wr-rk-T2v" customClass="SecondScreenViewController" customModule="FindMallsOnMap" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fI9-9D-9kh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PvF-eV-vH5">
+                                <rect key="frame" x="0.0" y="73" width="384" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IvH-BE-8pQ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90609096477838458" green="0.97715305530433438" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="IvH-BE-8pQ" firstAttribute="leading" secondItem="fI9-9D-9kh" secondAttribute="leading" id="2nW-q6-phz"/>
+                            <constraint firstItem="IvH-BE-8pQ" firstAttribute="centerX" secondItem="fI9-9D-9kh" secondAttribute="centerX" id="4q6-yD-pT0"/>
+                            <constraint firstAttribute="trailing" secondItem="IvH-BE-8pQ" secondAttribute="trailing" id="FDX-4O-2Nq"/>
+                            <constraint firstItem="PvF-eV-vH5" firstAttribute="top" secondItem="IvH-BE-8pQ" secondAttribute="bottom" constant="52" id="ZV9-If-4mg"/>
+                            <constraint firstItem="Fsk-vO-XZ4" firstAttribute="trailing" secondItem="PvF-eV-vH5" secondAttribute="trailing" constant="30" id="mpB-H6-ML7"/>
+                            <constraint firstItem="IvH-BE-8pQ" firstAttribute="top" secondItem="fI9-9D-9kh" secondAttribute="top" id="rua-vV-BKg"/>
+                            <constraint firstItem="PvF-eV-vH5" firstAttribute="leading" secondItem="Fsk-vO-XZ4" secondAttribute="leading" id="znl-nn-5Lj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Fsk-vO-XZ4"/>
+                    </view>
+                    <connections>
+                        <outlet property="mallInfo" destination="PvF-eV-vH5" id="SxE-ap-gqO"/>
+                        <outlet property="mallName" destination="IvH-BE-8pQ" id="NNs-fW-UE6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SIS-0o-IFh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-126.08695652173914" y="-154.01785714285714"/>
+        </scene>
+    </scenes>
+</document>
